@@ -1,0 +1,36 @@
+.App {
+    background-color: #1F2833;
+}
+
+.App-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #0B0C10;
+}
+
+.App-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 820px;
+}
+
+.button {
+    border: 1px solid #0B0C10;
+    border-radius: 10px;
+    color: #66FCF1;
+    background-color: #0B0C10;
+    margin: 10px;
+    padding: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    border-color: #66FCF1;
+}
+
+.button:active {
+    background-color: #C5C6C7;
+}

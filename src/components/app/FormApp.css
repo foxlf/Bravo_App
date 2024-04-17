@@ -1,0 +1,60 @@
+.FormApp {
+    position: relative;
+}
+
+p {
+    color: #66FCF1;
+}
+
+.FormApp-form__select {
+    outline: none;
+    border-color: #C5C6C7;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: #C5C6C7;
+    background-color: #0B0C10;
+}
+
+.FormApp-form__select:focus { 
+    border-color: #66FCF1;
+}
+
+.FormApp-form__input {
+    outline: none;
+    background-color: #0B0C10;
+    border: 1px solid #C5C6C7;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: #C5C6C7;
+}
+
+.FormApp-form__input:focus {
+    border-color: #66FCF1;
+}
+
+.FormApp-form__submit {
+    border: 1px solid #0B0C10;
+    border-radius: 10px;
+    color: #66FCF1;
+    background-color: #0B0C10;
+    margin: 10px;
+    padding: 10px;
+}
+
+.FormApp-form__label {
+    position: absolute;
+    color: #45A29E;
+    top: 50px;
+    left: 10px
+}
+
+.FormApp-form__submit:hover {
+    cursor: pointer;
+    border-color: #66FCF1;
+}
+
+.FormApp-form__submit:active {
+    background-color: #C5C6C7;
+}

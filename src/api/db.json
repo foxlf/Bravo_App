@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Иванов И.И.",
+      "email": "ivanov@mail.ru",
+      "password": "123",
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "name": "Петров П.П.",
+      "email": "petrov@mail.ru",
+      "password": "123",
+      "isActive": false
+    },
+    {
+      "id": "3",
+      "name": "Сидоров С.С.",
+      "email": "sidorov@mail.ru",
+      "password": "123",
+      "isActive": false
+    }
+  ],
+  "data": [
+    {
+      "id": "1",
+      "user": "Иванов И.И.",
+      "document": "Гост 1"
+    },
+    {
+      "id": "2",
+      "user": "Петров П.П.",
+      "document": "Гост 1"
+    },
+    {
+      "id": "3",
+      "user": "Сидоров С.С.",
+      "document": "Гост 1"
+    },
+    {
+      "id": "4",
+      "user": "Иванов И.И.",
+      "document": "Гост 2"
+    },
+    {
+      "id": "5",
+      "user": "Петров П.П.",
+      "document": "Гост 2"
+    },
+    {
+      "id": "6",
+      "user": "Сидоров С.С.",
+      "document": "Гост 3"
+    },
+    {
+      "id": "7",
+      "user": "Иванов И.И.",
+      "document": "Гост 4"
+    },
+    {
+      "id": "8",
+      "user": "Петров П.П.",
+      "document": "Гост 5"
+    },
+    {
+      "id": "9",
+      "user": "Сидоров С.С.",
+      "document": "Гост 5"
+    }
+  ]
+}

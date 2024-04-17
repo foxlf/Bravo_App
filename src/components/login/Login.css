@@ -1,0 +1,51 @@
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2833;
+    height: 900px;
+    
+}
+
+.Login-body {
+    position: relative;
+}
+
+.Login-form__email, .Login-form__password {
+    outline: none;
+    background-color: #0B0C10;
+    border: 1px solid #C5C6C7;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: #C5C6C7;
+}
+
+.Login-form__email:focus, .Login-form__password:focus {
+    border-color: #66FCF1;
+}
+
+.Login-form__submit {
+    border: 1px solid #0B0C10;
+    border-radius: 10px;
+    color: #66FCF1;
+    background-color: #0B0C10;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Login-form__label {
+    position: absolute;
+    color: #45A29E;
+    top: 50px;
+    left: 10px
+}
+
+.Login-form__submit:hover {
+    cursor: pointer;
+    border-color: #66FCF1;
+}
+
+.Login-form__submit:active {
+    background-color: #C5C6C7;
+}
